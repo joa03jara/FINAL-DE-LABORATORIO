@@ -1,0 +1,44 @@
+/*///////////////////////////////---Registrarse---/////////////////////////////////*/
+
+.registrarse {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.registrarse h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registrarse input[type="text"],
+.registrarse input[type="password"],
+.registrarse input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registrarse input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registrarse input[type="submit"]:hover {
+    background-color: #45a049;
+}

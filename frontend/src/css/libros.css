@@ -1,0 +1,137 @@
+/*///////////////////////////////---Libros---/////////////////////////////////*/
+
+.class-libros {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.class-libros h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.class-libros input[type="text"],
+.class-libros input[type="date"],
+.class-libros input[type="email"],
+.class-libros input[type="number"]
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.class-libros input[type="number"]::-webkit-outer-spin-button,
+.class-libros input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Estilos específicos para el campo de fecha en Chrome */
+.class-libros input[type="date"] {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.class-libros input[type="date"]::-webkit-inner-spin-button,
+.class-libros input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+.class-libros input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #4CAF50;
+    background: url('data:image/svg+xml;utf8,<svg fill="%234CAF50" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 10l5 5 5-5z"/></svg>') no-repeat;
+    background-size: 20px 20px;
+    margin-right: 10px;
+}
+
+.class-libros input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*color del boton GUARDAR LIBRO cuando se apolla el cursor encima*/
+.class-libros input[type="submit"]:nth-child(7):hover {
+    background-color: #06a310;
+}
+
+/*color que va a tener por defecto cuando se muestre en pantalla el boton GUARDAR*/
+.class-libros input[type="submit"]:nth-child(7) {
+    background-color: #4CAF50;
+} 
+
+/*color del boton ACTUALIZAR LIBRO cuando se apolla el cursor encima*/
+.class-libros input[type="submit"]:nth-child(8):hover {
+    background-color: #d67600;
+}
+
+/*color que va a tener por defecto cuando se muestre en pantalla el boton ACTUALIZAR*/
+.class-libros input[type="submit"]:nth-child(8) {
+    background-color: #ff9800;
+} 
+
+/*color del boton BORRAR LIBRO cuando se apolla el cursor encima*/
+.class-libros input[type="submit"]:nth-child(9):hover {
+    background-color: #ad0303;
+}
+
+/*color que va a tener por defecto cuando se muestre en pantalla el boton BORRAR*/
+.class-libros input[type="submit"]:nth-child(9) {
+    background-color: #e82323;
+} 
+
+/* Estilos para la tabla de historial de libros */
+.historial-libros {
+    width: 80%; /* Ajusta el ancho según tu preferencia */
+    max-width: 600px; /* Define un ancho máximo */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.historial-libros h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.historial-libros table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.historial-libros th, .historial-libros td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.historial-libros th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.historial-libros tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
